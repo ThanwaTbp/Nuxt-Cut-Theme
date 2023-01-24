@@ -48,8 +48,11 @@
 						table-class-name="customize-table"
 						header-text-direction="center"
 						body-text-direction="center"
+						@click-row="rowOnClick"
+						:body-row-class-name="active === active && 'activeTr'"
+						
 					>
-					
+					<!-- :body-row-class-name="{activeTr: active === items}" -->
 						<!-- <template #header-checkbox="item">
 							<div class="form-check form-check-sm form-check-custom form-check-solid">
 								<input class="form-check-input" type="checkbox" data-kt-check="true"
@@ -134,6 +137,7 @@ const loadFromApi = async () => {
 			items.value = cryptocurrencies.data
 			serverItemsLength.value = 100
 			loading.value = false
+			console.log(toRaw(items.value))
 		})
 }
 
@@ -150,6 +154,19 @@ watch(
 	},
 	{ deep: true }
 )
+
+// const selected = ref(null)
+
+// rowOnClick(id) {
+// 	selected.value = id
+// }
+
+const active = ref(null)
+
+const rowOnClick =  (item: ClickRowArgument) => {
+	active.value = item.rank
+	console.log(active.value)
+}
 
 </script>
 

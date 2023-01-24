@@ -13,6 +13,7 @@
     "nuxt-icon": "^0.2.6"
   },
   "dependencies": {
+    "@types/vue-cropperjs": "^4.1.2",
     "@vuepic/vue-datepicker": "^3.5.3",
     "apexcharts": "^3.36.3",
     "axios": "^1.2.2",
@@ -22,7 +23,6 @@
     "nuxt-dropzone": "^1.0.4",
     "pinia": "^2.0.29",
     "sass": "^1.51.0",
-    "vue-image-crop-upload": "^3.0.3",
     "vue3-apexcharts": "^1.4.1",
     "vue3-dropzone": "0.0.7",
     "vue3-easy-data-table": "^1.5.25"

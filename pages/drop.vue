@@ -3,6 +3,7 @@ import { stat } from 'fs';
 import { reactive, watch } from 'vue';
 import { useDropzone } from 'vue3-dropzone';
 
+
 const state = reactive({
 	files: [],
 });
@@ -40,6 +41,8 @@ function handleClickDeleteFile(index: any) {
 function addClick() {
 	console.log()
 }
+
+const imggg = 'https://devahoy.com/_next/image?url=%2Fstatic%2Fimages%2Fdevahoy-logo.png&w=64&q=75'
 </script>
 
 <template>
