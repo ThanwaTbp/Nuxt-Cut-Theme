@@ -13,6 +13,7 @@
     "nuxt-icon": "^0.2.6"
   },
   "dependencies": {
+    "@pinia/nuxt": "^0.4.6",
     "@types/vue-cropperjs": "^4.1.2",
     "@vuepic/vue-datepicker": "^3.5.3",
     "apexcharts": "^3.36.3",
@@ -23,8 +24,11 @@
     "nuxt-dropzone": "^1.0.4",
     "pinia": "^2.0.29",
     "sass": "^1.51.0",
+    "vue-draggable-next": "^2.1.1",
     "vue3-apexcharts": "^1.4.1",
+    "vue3-draggable": "^2.0.9",
     "vue3-dropzone": "0.0.7",
-    "vue3-easy-data-table": "^1.5.25"
+    "vue3-easy-data-table": "^1.5.25",
+    "vuedraggable": "^4.1.0"
   }
 }

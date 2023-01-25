@@ -6,7 +6,7 @@
 			<span class="menu-icon me-0">
 				<i class="fonticon-house fs-1"></i>
 			</span>
-			<span class="menu-title">Home</span>
+			<span class="menu-title">ข้อมูลสรุป</span>
 		</span>
 		<!--end:Menu link-->
 		<!--begin:Menu sub-->

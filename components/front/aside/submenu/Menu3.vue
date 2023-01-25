@@ -5,7 +5,7 @@
 			<span class="menu-icon me-0">
 				<i class="fonticon-layers fs-1"></i>
 			</span>
-			<span class="menu-title">Utilities</span>
+			<span class="menu-title">อนุมัติข้อมูล</span>
 		</span>
 		<!--end:Menu link-->
 		<!--begin:Menu sub-->

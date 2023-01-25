@@ -5,7 +5,7 @@
 			<span class="menu-icon me-0">
 				<i class="fonticon-stats fs-1"></i>
 			</span>
-			<span class="menu-title">Pages</span>
+			<span class="menu-title">สายทาง</span>
 		</span>
 		<!--end:Menu link-->
 		<!--begin:Menu sub-->

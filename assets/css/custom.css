@@ -1,5 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400&display=swap');
+
+* {
+	font-family: 'Kanit', sans-serif!important;
+}
+
 @media (max-width: 991.98px) {
 	.header-tablet-and-mobile-fixed .wrapper {
     padding-top: 0px!important;
 	}
+}
+
+.aside-menu .menu>.menu-item.here>.menu-link {
+    background-color: #242a44!important;
+    border-radius: 20px!important;
+}
+
+.aside {
+    background-color: #181c32!important;
+}
+
+.aside .aside-logo {
+    background-color: #181c32!important;
+}
+
+.menu>.menu-item.here>.menu-link .menu-icon i {
+    color: #ad9d73!important;
+}
+
+.aside-menu .menu-title {
+	font-size: 10.5px!important;
 }

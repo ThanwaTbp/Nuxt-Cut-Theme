@@ -5,7 +5,7 @@
 			<span class="menu-icon me-0">
 				<i class="fonticon-setting fs-1"></i>
 			</span>
-			<span class="menu-title">Help</span>
+			<span class="menu-title">ตั้งค่าระบบ</span>
 		</span>
 		<!--end:Menu link-->
 		<!--begin:Menu sub-->
