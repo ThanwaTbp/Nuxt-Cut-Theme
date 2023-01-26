@@ -91,7 +91,6 @@ const routes: IRoute[] = [
 		],
 	},
 ]
-
 </script>
 
 <template>
@@ -106,8 +105,8 @@ const routes: IRoute[] = [
 					<span class="menu-icon me-0">
 						<i :class="isDark != false ? 'bi bi-brightness-high-fill' : 'bi bi-moon-fill'"></i>
 					</span>
-					<span v-if="isDark === true" class="menu-title"> Dark</span>
-					<span v-else class="menu-title">Light</span>
+					<span v-if="isDark === true" class="menu-title">Light</span>
+					<span v-else class="menu-title">Dark</span>
 				</span>
 			</div>
 			<div data-kt-menu-trigger="{default: 'click', lg: 'hover'}" data-kt-menu-placement="right-start"
@@ -136,24 +135,6 @@ const routes: IRoute[] = [
 				</div>
 			</div>
 		</div>
-		<!--  -->
-		<!-- <div class="aside-footer flex-column-auto">
-			<div
-				class="menu menu-column menu-title-gray-700 menu-state-title-primary menu-state-icon-primary menu-state-bullet-primary menu-arrow-gray-500 fw-semibold"
-				data-kt-menu="true">
-			
-				<NuxtLink to="/account/overview" data-kt-menu-trigger="{default: 'click', lg: 'hover'}"
-					data-kt-menu-placement="right-start" class="menu-item .here .show py-2"
-					:class="{ 'here': $route.path.startsWith('/account') }">
-					<span class="menu-link menu-center">
-						<span class="menu-icon me-0">
-							<i class="fonticon-user-2 fs-1"></i>
-						</span>
-						<span class="menu-title text-center">ธันวา <br> ตะบูนพงษ์</span>
-					</span>
-				</NuxtLink>
-			</div>
-		</div> -->
 	</div>
 </template>
 

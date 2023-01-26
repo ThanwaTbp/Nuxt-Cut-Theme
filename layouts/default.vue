@@ -24,8 +24,9 @@ useHead({
 			</div>
 		</div>
 	</div>
+	<Backtotop />
 </template>
 
 <style scoped>
-	
+
 </style>
