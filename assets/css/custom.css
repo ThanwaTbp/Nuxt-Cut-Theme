@@ -4,7 +4,7 @@
 	font-family: 'Kanit', sans-serif!important;
 }
 
-@media (max-width: 991.98px) {
+/* @media (max-width: 991.98px) {
 	.header-tablet-and-mobile-fixed .wrapper {
     padding-top: 0px!important;
 	}
@@ -27,6 +27,36 @@
     color: #ad9d73!important;
 }
 
-.aside-menu .menu-title {
-	font-size: 10.5px!important;
+.menu-item .menu-link {
+    padding: 0.65rem 0rem!important;
 }
+
+.aside-menu .menu>.menu-item.hover:not(.here)>.menu-link:not(.disabled):not(.active):not(.here) .menu-icon, .aside-menu .menu>.menu-item.hover:not(.here)>.menu-link:not(.disabled):not(.active):not(.here) .menu-icon .svg-icon, .aside-menu .menu>.menu-item.hover:not(.here)>.menu-link:not(.disabled):not(.active):not(.here) .menu-icon i, .aside-menu .menu>.menu-item:not(.here)>.menu-link:hover:not(.disabled):not(.active):not(.here) .menu-icon, .aside-menu .menu>.menu-item:not(.here)>.menu-link:hover:not(.disabled):not(.active):not(.here) .menu-icon .svg-icon, .aside-menu .menu>.menu-item:not(.here)>.menu-link:hover:not(.disabled):not(.active):not(.here) .menu-icon i {
+    color: #ad9d73!important;
+}
+
+.menu-state-icon-primary .menu-item.hover:not(.here)>.menu-link:not(.disabled):not(.active):not(.here) .menu-icon, .menu-state-icon-primary .menu-item.hover:not(.here)>.menu-link:not(.disabled):not(.active):not(.here) .menu-icon .svg-icon, .menu-state-icon-primary .menu-item.hover:not(.here)>.menu-link:not(.disabled):not(.active):not(.here) .menu-icon i, .menu-state-icon-primary .menu-item:not(.here) .menu-link:hover:not(.disabled):not(.active):not(.here) .menu-icon, .menu-state-icon-primary .menu-item:not(.here) .menu-link:hover:not(.disabled):not(.active):not(.here) .menu-icon .svg-icon, .menu-state-icon-primary .menu-item:not(.here) .menu-link:hover:not(.disabled):not(.active):not(.here) .menu-icon i {
+    color: #ad9d73!important;
+}
+
+.aside-menu .menu>.menu-item.show>.menu-link .menu-icon, .aside-menu .menu>.menu-item.show>.menu-link .menu-icon .svg-icon, .aside-menu .menu>.menu-item.show>.menu-link .menu-icon i {
+    color: #ad9d73!important;
+}
+
+primary .menu-item:not(.here) .menu-link:hover:not(.disabled):not(.active):not(.here) {
+    color: #ad9d73!important;
+}
+
+.user-menu {
+		margin-top: 300px;
+}
+
+.user-menu .menu-link {
+		width: 100%!important;
+}
+
+@media (max-width: 991.98px) {
+	.user-menu {
+		margin-top: 475px;
+	}
+} */

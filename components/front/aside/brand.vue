@@ -3,9 +3,9 @@
 <template>
 	<div class="aside-logo py-8" id="kt_aside_logo">
 		<!--begin::Logo-->
-		<a href="../../demo6/dist/index.html" class="d-flex align-items-center">
+		<NuxtLink to="/" class="d-flex align-items-center">
 			<img alt="Logo" src="/media/logos/demo6.svg" class="h-45px logo" />
-		</a>
+		</NuxtLink>
 		<!--end::Logo-->
 	</div>
 </template>

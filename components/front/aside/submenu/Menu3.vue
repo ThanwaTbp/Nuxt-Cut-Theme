@@ -3,7 +3,8 @@
 		<!--begin:Menu link-->
 		<span class="menu-link menu-center">
 			<span class="menu-icon me-0">
-				<i class="fonticon-layers fs-1"></i>
+				<!-- <i class="fonticon-layers fs-1"></i> -->
+				<i class="bi bi-list-check fs-1"></i>
 			</span>
 			<span class="menu-title">อนุมัติข้อมูล</span>
 		</span>

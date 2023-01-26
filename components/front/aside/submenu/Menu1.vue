@@ -4,9 +4,10 @@
 		<!--begin:Menu link-->
 		<span class="menu-link menu-center">
 			<span class="menu-icon me-0">
-				<i class="fonticon-house fs-1"></i>
+				<!-- <i class="fonticon-house fs-1"></i> -->
+				<i class="bi bi-clipboard-data fs-1"></i>
 			</span>
-			<span class="menu-title">ข้อมูลสรุป</span>
+			<span class="menu-title" v-text="text"></span>
 		</span>
 		<!--end:Menu link-->
 		<!--begin:Menu sub-->
@@ -230,7 +231,7 @@
 </template>
 
 <script setup lang="ts">
-
+const text = "ข้อมูลสรุป"
 </script>
 
 <style scoped>

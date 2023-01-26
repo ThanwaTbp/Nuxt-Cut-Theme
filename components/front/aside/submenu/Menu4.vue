@@ -3,7 +3,8 @@
 		<!--begin:Menu link-->
 		<span class="menu-link menu-center">
 			<span class="menu-icon me-0">
-				<i class="fonticon-app-store fs-1"></i>
+				<!-- <i class="fonticon-app-store fs-1"></i> -->
+				<i class="bi bi-file-earmark-text fs1"></i>
 			</span>
 			<span class="menu-title">รายงาน</span>
 		</span>

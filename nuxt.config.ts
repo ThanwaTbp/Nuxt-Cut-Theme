@@ -1,6 +1,8 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+	ssr: false,
 	app: {
+		// baseURL: '/dashboards',
 		head: {
 			htmlAttrs: {
 				lang: "en",
@@ -27,10 +29,10 @@ export default defineNuxtConfig({
 				{ rel: "stylesheet", href: "/css/style.bundle.css" },
 				{ rel: "stylesheet", href: "/css/plugins.bundle.css" },
 			],
-			script: [
-				{ src: "/js/plugins.bundle.js", body: true },
-				{ src: "/js/scripts.bundle.js", body: true },
-			],
+			// script: [
+			// 	{ src: "/js/plugins.bundle.js", body: true },
+			// 	{ src: "/js/scripts.bundle.js", body: true },
+			// ],
 		},
 	},
 	css: ["@/assets/css/custom.css"],
