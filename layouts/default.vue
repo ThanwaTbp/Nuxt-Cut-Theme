@@ -12,15 +12,9 @@ useHead({
 		<div class="page d-flex flex-row flex-column-fluid">
 			<FrontAside />
 			<div class="wrapper d-flex flex-column flex-row-fluid" id="kt_wrapper">
-				<!--begin::Header-->
 				<!-- <FrontWrapperHeader /> -->
-				<!--end::Header-->
-				<!--begin::Content-->
-				<slot />
-				<!--end::Content-->
-				<!--begin::Footer-->
+					<slot />
 				<FrontWrapperFooter />
-				<!--end::Footer-->
 			</div>
 		</div>
 	</div>

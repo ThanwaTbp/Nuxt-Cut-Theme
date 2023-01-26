@@ -9,8 +9,12 @@ const isDark = useDark({
 	valueDark: "dark", // attribute value for dark mode
 	valueLight: "light"
 });
-const toggleDark = useToggle(isDark);
-console.log(isDark)
+const toggleDark = useToggle(isDark)
+
+const audio = new Audio("https://www.fesliyanstudios.com/play-mp3/387")
+function play() {
+	audio.play()
+}
 
 interface IRoute {
 	id: number;
@@ -100,7 +104,7 @@ const routes: IRoute[] = [
 		<div
 			class="menu menu-column menu-title-gray-700 menu-state-title-primary menu-state-icon-primary menu-state-bullet-primary menu-arrow-gray-500 fw-semibold"
 			data-kt-menu="true">
-			<div data-kt-menu-trigger="{default: 'click', lg: 'hover'}" data-kt-menu-placement="right-start" class="menu-item py-2" @click="toggleDark()">
+			<div data-kt-menu-trigger="{default: 'click', lg: 'hover'}" data-kt-menu-placement="right-start" class="menu-item py-2" @click="toggleDark(), play()">
 				<span class="menu-link menu-center">
 					<span class="menu-icon me-0">
 						<i :class="isDark != false ? 'bi bi-brightness-high-fill' : 'bi bi-moon-fill'"></i>
